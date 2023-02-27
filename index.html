@@ -87,7 +87,7 @@ body{behavior:url(csshover.htc); font-size:75%;}
   </div>
   <div id="content">
     <script>
-      var link = document.querySelector('link[rel=import]').import;
+      var link = document.querySelector('link[rel=import]');
       var content = link.import.querySelector('#intro-dm');
       document.body.appendChild(content.cloneNode(true));
     </script>
